@@ -1,4 +1,4 @@
-#Load dplyr and tidyr packages
+#Load packages
 library(dplyr)
 library(tidyr)
 library(reshape2)
