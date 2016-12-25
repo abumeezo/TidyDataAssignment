@@ -35,7 +35,7 @@ Reading the material included with the data (README.txt and features_info.txt) p
 * angle: angle between (at start of variable name)
 * , : comma for 'angle between' variables, change it to "and"
 
-Finally, the changed variable names were then set to the column names of AllData
+Finally, the changed variable names were all made lower-case, run through make.names() and double periods were removed before being set to the column names of AllData
 
 ###Producing the requested tidy data set
 
