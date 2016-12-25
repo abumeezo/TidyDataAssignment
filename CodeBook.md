@@ -70,7 +70,7 @@ final_tidy_dataset(data.frame): data.frame produced by dcast() on melted_data
                                 unique ID rows. Returned as result of assignment.
 
 ###Indices and logicals
-MeanSTDevColnames:   character vector produced by grep() that finds variables
+MeanSTDevColnames:   character vector produced by grep() on colnames of AllData that finds variables
                      with "mean" and "std" as part of the name
 
 
